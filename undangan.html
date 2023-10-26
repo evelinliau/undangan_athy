@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cherry+Bomb+One&family=Grand+Hotel&family=Lato&family=Montserrat&family=Pangolin&family=Play&family=Roboto&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * 
+        {
+            margin: 0px auto;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div.container
+        {
+            min-width: 300px;
+            max-width: 500px;
+        }
+        section.page
+        {
+            width: 100%;
+            min-height: 100vh;
+            background-color:royalblue;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url("assets/background.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+           
+            
+        }
+        section.page > div > p, section.page > div > h1
+        {
+            text-align: center;
+        }
+        section.page.one
+        {
+            gap: 200pt;
+        }
+        section.page.one > div > h1 
+        {
+            font-size: 30pt;
+        }
+        section.page.two
+        {
+            justify-content: space-evenly;
+        }
+        section.page.three
+        {
+            justify-content: space-evenly;
+        }
+        section.page.four > h1
+        {
+            font-size: 60px;
+            margin: 0pxb auto;
+            /* margin-bottom: 350px;
+            margin-left: 20px; */
+            margin: 0px auto;
+            margin-bottom: 250px ;
+            letter-spacing: 10px;
+            /* word-spacing: 10px; */
+            text-align: center;
+            font-family: 'Grand Hotel', serif;
+        }
+        section.page.four > p
+        {
+            font-size: 20px;
+        }
+        div.card
+        {
+            padding: 10pt;
+            width: 280pt;
+            min-height: 300pt;
+            background-color: grey;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        div.circle
+        {
+            width: 150pt;
+            height: 150pt;
+            border-radius: 75pt;
+            background-color: lightblue;
+        }
+        .top-left
+        {
+            position: fixed;
+            background-color: palevioletred;
+            top: 0px;
+            left: 0px;
+        }
+        .top-right
+        {
+            position: fixed;
+            background-color: pink;
+            top: 0px;
+            right: 0px;
+        }
+        .bottom-left
+        {
+            position: fixed;
+            background-color: lightseagreen;
+            bottom: 0px;
+            left: 0px;
+        }
+        .bottom-right
+        {
+            position: fixed;
+            background-color: lightseagreen;
+            bottom: 0px;
+            right: 0px;
+        }
+        div.line
+        {
+            width: 200px;
+            height: 1px;
+            background-color: black;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="page one">
+            <div class="title">
+                <p>The Wedding of</p>
+                <h1>Athanasia & Lucas </h1>
+                <p>5th of May 2025</p>
+            </div>
+            <div class="guest">
+                <p>Dear,</p>
+                <p>Ijekiel Alpheus & Jennette Margarita</p>
+            </div>
+        </section>
+        <section class="page two">
+            <h2>The Beloved</h2>
+            <h1>Athanasia & Lucas</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tenetur reprehenderit, quam incidunt placeat voluptas perspiciatis odio nostrum ut ex obcaecati exercitationem labore dolores molestiae.</p>
+            <div class="card">
+                <div class="circle">
+                    <img style="width: 150pt; height: 150pt; border-radius: 705pt;" src="assets/Athy.jpg" alt="">
+                </div>
+                <h1>Athanasia de Alger Obelia</h1>
+                <div class="line"></div>
+                <p>The Daughter of</p>
+                <p>Claude de Alger Obelia</p>
+                <p>&</p>
+                <p>Diana de Alger Obelia</p>
+            </div>
+
+        </section>
+        <section class="page three">
+            
+                <h2>The Beloved</h2>
+                <h1>Athanasia & Lucas</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tenetur reprehenderit, quam incidunt placeat voluptas perspiciatis odio nostrum ut ex obcaecati exercitationem labore dolores molestiae.</p>
+                <div class="card">
+                    <div class="circle">
+                        <img style="width: 150pt; height: 150pt; border-radius: 70pt;" src="assets/Lucas.jpg" alt="">
+                    </div>
+                    <h1>Lucas</h1>
+                    <div class="line"></div>
+                    <p>The Only Heir of</p>
+                    <p>The Head of Imperial Magician</p>
+                    
+                </div>
+            
+        </section>
+        <section class="page four">
+            <h1>
+                We Are Really Hoping to Meet You All
+            </h1>
+            <p>
+                Sincerly,
+                Anastasia & Lucass
+            </p>
+        </section>
+
+    </div>
+    <div class="circle top-left"></div>
+    <div class="circle top-right"></div>
+    <div class="circle bottom-left"></div>
+    <div class="circle bottom-right"></div>
+</body>
+</html>
